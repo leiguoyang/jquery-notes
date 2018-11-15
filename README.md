@@ -12,13 +12,13 @@ As the official statement,
 
 > jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 
-- **Solve the browser compatability.** For example, the `addEventListener()` method is not supported in IE7.
+- **Solve the browser compatability.** For example, the `addEventListener()` method is not supported in IE7. `getElementByClassName()` is not supported in versions of IE prior to 9.
 
-- **Write less code.** For example, select all the <p\> element from the page.
-  - Raw JavaScript: `document.querySelectorAll();`
-  - jQuery: `$("p");`
+- **Write less code.** For example, select all the `<p/>` element from the page.
+  - Raw JavaScript: `document.querySelectorAll('p')`
+  - jQuery: `$("p")`
 
-**Others**
+- **Others**
 
 ## Part1 Selecting elements
 
